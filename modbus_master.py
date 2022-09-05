@@ -82,8 +82,6 @@ registers = {   "MB_STATE_REGISTER"                :0,
 
 
 
-
-
 # через RS485 свисток
 # USB0 может меняться на USB1..3
 client = ModbusClient(method = 'rtu', port='/dev/ttyUSB0', baudrate=115200, timeout=1, bytesize=8, stopbits=1)
